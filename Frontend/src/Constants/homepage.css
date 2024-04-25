@@ -1,0 +1,94 @@
+#main_div{
+    width: 100vw;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h2{
+    text-align: center;
+}
+
+
+#centre_div{
+    margin-top: 50px;
+    width: 60vw;
+    padding: 10px;
+}
+
+
+label{
+    color: gray;
+    font-weight: bold;
+    font-size: small;
+}
+
+.tit_input{
+    width: 50vw;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(183, 178, 178);
+
+}
+
+.desc_input{
+    border: none;
+    box-shadow: 0px 0px 2px rgb(183, 178, 178);
+}
+
+button{
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(183, 178, 178);
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#output{
+    width: 55vw;
+    height: 80px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coming_title{
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#coming_desc{
+    font-size: small;
+}
+
+.left{
+    width: 80%;
+}
+
+
+.ed{
+    width: 40px;
+    margin: 2px;
+    color: black;
+    font-weight: bold;
+    font-size: xx-small;
+}
