@@ -1,7 +1,7 @@
 To run the following project. You need to follow the following steps:- <br>
 <ul>
 1:- npx create-react-app todolist<br>
-2:- In front use command npm i for installing the node modules repeat same command in server terminal also
+2:- In front use command npm i for installing the node modules
 <br>
 3:- hosting :-
 <ul>
