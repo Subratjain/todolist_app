@@ -2,7 +2,6 @@ To run the following project. You need to follow the following steps:- <br>
 1:- npx create-react-app todolist
 <br>
 2:- hosting :-
-<br>
 <ul>
   <li>
     create project on firebase for hosting 
@@ -22,7 +21,7 @@ To run the following project. You need to follow the following steps:- <br>
 <li>
     firebase deploy<br>
 </li>
-</ul><br>
+</ul>
 3:- Now in front terminal run command npm start.<br>
 4:- Live Project Link :- https://todolist-app-ddf69.web.app/
                 
