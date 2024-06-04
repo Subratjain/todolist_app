@@ -6,8 +6,9 @@ body {
 }
 
 #main_div {
-    width: 100vw;
+    /* width: 100vw; */
     /* border: 1px solid crimson; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -15,10 +16,11 @@ body {
 
 h2 {
     text-align: center;
+    font-size: 2vw;
 }
 
 #centre_div {
-    margin-top: 50px;
+    margin-top: 5vw;
     width: 60vw;
     padding: 10px;
 }
@@ -26,29 +28,32 @@ h2 {
 label {
     color: gray;
     font-weight: bold;
-    font-size: small;
+    font-size: 1vw;
 }
 
 .tit_input {
     width: 50vw;
-    height: 30px;
+    height: 2vw;
     border: none;
+    font-size: 0.9vw;
     box-shadow: 0px 0px 2px rgb(183, 178, 178);
 }
 
 .desc_input {
     border: none;
     box-shadow: 0px 0px 2px rgb(183, 178, 178);
+    font-size: 0.9vw;
 }
 
 button {
     margin-top: 5px;
     background-color: white;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
+    width: 8vw;
+    height: 2vw;
     border: none;
     box-shadow: 0px 0px 2px rgb(183, 178, 178);
+    font-size: 1vw;
 }
 
 button:hover {
@@ -64,7 +69,7 @@ button:hover {
 
 #output {
     width: 55vw;
-    height: 80px;
+    height: fit-content;
     box-shadow: 0px 0px 5px grey;
     border-radius: 10px;
     padding: 5px;
@@ -76,11 +81,12 @@ button:hover {
 #coming_title {
     color: black;
     font-weight: bold;
+    font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #coming_desc {
-    font-size: small;
+    font-size: 1vw;
 }
 
 .left {
@@ -93,4 +99,10 @@ button:hover {
     color: black;
     font-weight: bold;
     font-size: xx-small;
+}
+
+.edit,
+.delete {
+    font-size: 1vw;
+    width: 4vw;
 }
